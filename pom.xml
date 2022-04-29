@@ -30,6 +30,9 @@
                 <artifactId>soapui-maven-plugin</artifactId>
                 <version>5.2.1</version>
                 <configuration>
+                    <systemPropertyVariables>
+                        <maven.settings>settings.xml</maven.settings>
+                    </systemPropertyVariables>
                     <projectFile>HappyPawsAPI-soapui-project.xml</projectFile>
                     <junitReport>true</junitReport>
                     <outputFolder>reports</outputFolder>

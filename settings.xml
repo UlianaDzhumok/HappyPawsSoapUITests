@@ -2,10 +2,10 @@
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
     <mirrors>
         <mirror>
-            <id>rsmartbear-plugin-repository-unblocker</id>
-            <mirrorOf>com.smartbear.soapui</mirrorOf>
-            <name>com.smartbear.soapui</name>
-            <url>http://www.soapui.org/repository/maven2/</url>
+            <id>maven-default-http-blocker</id>
+            <mirrorOf>dummy</mirrorOf>
+            <name>unblblocks http</name>
+            <url>http://0.0.0.0/</url>
         </mirror>
     </mirrors>
 </settings>
