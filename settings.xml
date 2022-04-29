@@ -6,6 +6,14 @@
             <mirrorOf>dummy</mirrorOf>
             <name>unblblocks http</name>
             <url>http://0.0.0.0/</url>
+            <blocked>false</blocked>
+        </mirror>
+        <mirror>
+            <id>smartbear-plugin-repository</id>
+            <mirrorOf>smartbear-plugin-repository</mirrorOf>
+            <name>smartbear-plugin-repository</name>
+            <url>>http://www.soapui.org/repository/maven2/</url>
+            <blocked>false</blocked>
         </mirror>
     </mirrors>
 </settings>
