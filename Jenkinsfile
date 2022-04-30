@@ -7,9 +7,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'maven3'
+        maven 'Maven 3.3.9'
         jdk 'jdk8'
-        allure 'allure2'
     }
 
     triggers {
