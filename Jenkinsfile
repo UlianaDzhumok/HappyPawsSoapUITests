@@ -7,15 +7,9 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven 3.3.9'
-        jdk 'jdk8'
-    }
-
-    triggers {
-        pollSCM 'H/5 * * * *'
-          cron '''TZ=Europe/Oslo
-        H H(13-14) * * *'''
-    }
+           maven "MAVEN"
+           jdk "JDK"
+       }
 
     stages {
         stage('Test') {
