@@ -5,8 +5,7 @@
     <artifactId>soapui-maven2-plugin</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>Maven 2 soapUI Sample</name>
-    <url>http://maven.apache.org</url>
+
 
     <dependencies>
         <dependency>
@@ -14,11 +13,6 @@
             <artifactId>junit</artifactId>
             <version>3.8.1</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.wagon</groupId>
-            <artifactId>wagon-http-lightweight</artifactId>
-            <version>3.5.1</version>
         </dependency>
     </dependencies>
 
